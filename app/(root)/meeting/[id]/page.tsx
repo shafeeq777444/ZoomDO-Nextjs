@@ -10,6 +10,7 @@ import { useGetCallById } from '@/hooks/useGetCallById';
 import Alert from '@/components/Alert';
 import MeetingSetup from '@/components/MeetingSetup';
 import MeetingRoom from '@/components/MeetingRoom';
+import "@stream-io/video-react-sdk/dist/css/styles.css";
 
 const MeetingPage = () => {
   
