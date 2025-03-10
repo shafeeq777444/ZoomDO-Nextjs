@@ -18,7 +18,7 @@ const Navbar = () => {
         <Link href="/" className="flex items-center justify-between w-full">
           <div className=' flex items-center gap-4 '>
             <Image
-              src="/icons/logo.png"
+              src="/icons/logog.png"
               width={40}
               height={22}
               alt="yoom logo"

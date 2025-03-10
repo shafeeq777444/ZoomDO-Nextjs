@@ -26,7 +26,7 @@ const MobileNav = () => {
         <SheetContent side="left" className="border-none bg-[#393760]">
           <Link href="/" className="flex items-center gap-1">
             <Image
-              src="/icons/logo.png"
+              src="/icons/logog.png"
               width={32}
               height={32}
               alt="yoom logo"
