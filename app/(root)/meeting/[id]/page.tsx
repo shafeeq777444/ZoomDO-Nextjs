@@ -13,8 +13,8 @@ import MeetingRoom from '@/components/MeetingRoom';
 
 const MeetingPage = () => {
   
-  const params = useParams();
-  const id = typeof params?.id === "string" ? params.id : "";
+  const { id } = useParams() as { id?: any};
+
   const { isLoaded, user } = useUser();
   const { call, isCallLoading } = useGetCallById(id);
   
